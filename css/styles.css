@@ -38,8 +38,11 @@ a:link {
 text-decoration: none;
 }
 
-.main-background {
-   background: var(--main-background)
+.header-container {
+   background: var(--main-background);
+justify content: space-between;
+align-items: center;
+
 }
 
 .first-line {

@@ -1,0 +1,171 @@
+:root {
+   --main-background: rgba(255,255,255, 1);
+   --focus-color: rgba(33, 150, 243, 1);
+   --second-line-color: rgba(117, 117, 117, 1);
+   --button-background: rgba(229, 229, 229, 1);
+   --footer-color:  rgba(47, 48, 58, 1);
+}
+
+.body {
+   font-family: 'Roboto', sans-serif;
+   color: rgba(33, 33, 33, 1)
+}
+.logo {
+color: var(--focus-color);
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+}
+
+.logo-header {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+color: #000000;
+}
+
+.logo-footer {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+color: var(--main-background)  
+}
+
+a:link {
+text-decoration: none;
+}
+
+.main-background {
+   background: var(--main-background)
+}
+
+.first-line {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+color: #212121;
+text-decoration: inherit;
+}
+
+.first-line:hover,
+.first-line:focus {
+   color: var(--focus-color)
+}
+
+.contact {
+   text-decoration: inherit;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.1;
+   letter-spacing: 0.02em;
+   color: var(--second-line-color);
+}
+
+.contact:hover {
+   color: var(--focus-color)
+}
+
+.h1-background {
+   background: var(--footer-color);
+}
+
+.h1-webstudio {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.4;
+   color: var(--main-background);
+}
+
+.button-webstudio {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+cursor: pointer;
+background: var(--button-background); 
+}
+
+.button-webstudio:hover {
+   color: var(--main-background);
+   background: var(--focus-color);
+}
+
+.buttons-portfolio {
+   cursor: pointer;
+   background: var(--button-background); 
+}
+
+.buttons-portfolio:hover {
+   color: var(--main-background);
+   background: var(--focus-color);
+}
+
+.h2 {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+}
+
+.h3 {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.4;
+   color: rgba(33, 33, 33, 1)
+}
+
+.h4 {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2.0;
+}
+
+.paragraph-index {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;   
+color: var(--second-line-color)}
+
+.paragraph-portfolio {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+color: var(--second-line-color)
+
+}
+
+.team {
+   background: rgba(245, 244, 250, 1);
+}
+.last {
+background: var(--footer-color);
+}
+
+.last-line {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+text-decoration: inherit;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.last-line:hover, 
+.last-line:focus {
+color: var(--focus-color)
+}
+
+.last-line-adress {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+text-decoration: inherit;
+color: var(--main-background);
+}
+
+.last-line-adress:hover,
+.last-line:focus {
+color: var(--focus-color);
+   }

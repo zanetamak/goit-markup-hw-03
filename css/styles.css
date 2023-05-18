@@ -13,7 +13,7 @@
    --main-background: rgba(255,255,255, 1);
    --focus-color: rgba(33, 150, 243, 1);
    --second-line-color: rgba(117, 117, 117, 1);
-   --button-background: rgba(229, 229, 229, 1);
+   --button-background: rgba(245, 244, 250, 1);
    --footer-color:  rgba(47, 48, 58, 1);
 }
 
@@ -40,13 +40,12 @@
 }
 
 a:link {
-   text-decoration: none;
+   text-decoration: inherit;
 }
 
 .container {
 width: 1200px;
 margin: 0 auto;
-padding: 0, 15px; 
 }
 
 .section {
@@ -54,7 +53,7 @@ padding: 0, 15px;
    padding-bottom: 94px;
 }
 
-/* nawigacja strony =======================*/
+/* nawigacja strony i kontakty =======================*/
 
 .logo {
 color: var(--focus-color);
@@ -130,6 +129,7 @@ color: #212121;
    font-size: 14px;
    line-height: 1.1;
    letter-spacing: 0.02em;
+  
    color: var(--second-line-color);
 }
 
@@ -139,15 +139,24 @@ color: #212121;
    .menu-contact-link:focus {
    color: var(--focus-color)
 }
+/* webstudio =====================*/
 
-.h1-background {
+
+.hero-container {
    background: var(--footer-color);
+   height: 600px;
 }
 
 .h1-webstudio {
    font-weight: 900;
    font-size: 44px;
    line-height: 1.4;
+   text-align: center;
+   letter-spacing: 0.06em;
+   white-space: wrap;
+   max-width: 696px;
+   margin: 0 auto;
+   margin-top: 100px;
    color: var(--main-background);
 }
 
@@ -158,9 +167,9 @@ line-height: 1.8;
 cursor: pointer;
 text-align: center;
 letter-spacing: 0.06em;
-margin: 0 auto;
 padding: 10px 41px;
 border-radius: 4px;
+margin: 30px 0 auto 600px;
 background: var(--button-background); 
 }
 
@@ -168,9 +177,11 @@ background: var(--button-background);
    color: var(--main-background);
    background: var(--focus-color);
 }
+/* buttons, img, portfolio ======================*/ 
+
 
 .buttons-portfolio {
-   font-family: inherit;
+   font-family: 'Roboto';
    font-weight: 500;
    font-size: 16px;
    line-height: 1.6;
@@ -199,7 +210,6 @@ background: var(--button-background);
 
 .button-item {
    margin-right: 8px;
-
 }
 
 /* portfolio images ============= */
@@ -259,7 +269,7 @@ color: var(--second-line-color)
       margin-bottom: 0;
    }
 
-   .portfolio-img-item:nth-of-type(3n) {
+.portfolio-img-item:nth-of-type(3n) {
       margin-right: 0;
 
 }
@@ -271,16 +281,18 @@ color: var(--second-line-color)
 /* stopka =======================================*/
 
 
-.footer {
+footer {
    background: var(--footer-color);
    padding-top: 60px;
    padding-bottom: 60px;
 }
+
 .logo-footer {
    font-family: 'Raleway';
    font-weight: 700;
    font-size: 26px;
    line-height: 1.2;
+   letter-spacing: 0,03em;
    color: var(--main-background)
 }
 
@@ -304,7 +316,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
-text-decoration: none;
 color: var(--main-background);
 }
 
@@ -315,6 +326,8 @@ color: var(--focus-color);
 
 .footer-contact {
    margin-top: 20px;
+   list-style-type: none;
+  
 }
 
 .footer-item {

@@ -44,7 +44,7 @@ a:link {
 }
 
 .container {
-width: 1200px;
+max-width: 1200px;
 margin: 0 auto;
 }
 
@@ -102,17 +102,9 @@ margin-right: 46px;
 display: inline;
 }
 
-.menu-nav-item:last-child {
-   margin-right: 0;
-}
-
 .menu-contact-item {
 margin-right: 50px;
 display: inline;
-}
-
-.menu-contact-item:last-child {
-   margin-right: 0
 }
 
 .menu-nav-link {
@@ -170,6 +162,7 @@ margin-top: 30px;
 padding: 10px 41px;
 letter-spacing: 0.06em;
 border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 background: var(--button-background); 
 }
 
@@ -177,6 +170,14 @@ background: var(--button-background);
    color: var(--main-background);
    background: var(--focus-color);
 }
+
+.button-position {
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+
 .features {
    padding-bottom: 0;
 }
@@ -264,6 +265,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14), 
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+margin-top: -5px;
 padding-top: 30px;
 padding-bottom: 30px
 }
@@ -310,6 +312,7 @@ font-family: 'Roboto';
    padding: 6px 22px;
    cursor: pointer;
    border-radius: 4px;
+   border: 0;
    background: var(--button-background); 
 }
 
@@ -343,28 +346,19 @@ margin-right: 30px;
 
 }
 .figcaption-item {
+   margin-top: -5px;
    padding: 20px 24px;
    border-right: 1px solid #eeeeee;
    border-bottom: 1px solid #eeeeee;
    border-left: 1px solid #eeeeee;
 }
 
-
-.h3 {
+.figcaption-title {
    font-weight: 700;
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
    color: rgba(33, 33, 33, 1)
-}
-
-.portfolio-img-item:nth-last-child(-n + 3) {
-      margin-bottom: 0;
-   }
-
-.portfolio-img-item:nth-of-type(3n) {
-      margin-right: 0;
-
 }
 
 /* stopka =======================================*/

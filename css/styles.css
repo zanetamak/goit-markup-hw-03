@@ -257,7 +257,9 @@ font-weight: 700;
 }
 
 .index-team-containers {
-   margin-right: 30px;
+margin-right: 30px;
+display: flex;
+flex-direction: column;
 }
 
 .figcaption-team {
@@ -265,7 +267,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14), 
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-margin-top: -5px;
 padding-top: 30px;
 padding-bottom: 30px
 }
@@ -341,12 +342,13 @@ font-family: 'Roboto';
 }
 
 .portfolio-img-containers {
+display: flex;
+flex-direction: column;
 margin-bottom: 30px;
 margin-right: 30px;
 
 }
 .figcaption-item {
-   margin-top: -5px;
    padding: 20px 24px;
    border-right: 1px solid #eeeeee;
    border-bottom: 1px solid #eeeeee;
